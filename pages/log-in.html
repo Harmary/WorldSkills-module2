@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-modal">
+        <div class="modal-window">
+            <h2 class="modal-window__title h2 text-center">Регистрация</h2>
+            <form class="form" action="" method="post">
+                <div class="form-group mb-3">
+                    <label class="form-lable" for="name">Введите имя *</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-lable" for="login">Введите логин *</label>
+                    <input type="text" class="form-control" id="login" name="login">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-lable" for="phone">Введите телефон *</label>
+                    <input type="telephone" class="form-control" id="phone" name="phone">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-lable" for="email">Введите email *</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-lable" for="password">Введите пароль *</label>
+                    <input type="password" class="form-control" id="password" name="password">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-lable" for="password">Повторите пароль *</label>
+                    <input type="password" class="form-control" id="password" name="password">
+                </div>
+                <div class="form-group mb-3">
+                    <input type="checkbox" class="form-check-input" id="password" name="password" checked>
+                    <label class="form-check-lable " for="password">Согласие на обработку персональных данных</label>
+                </div>
+                <div class="form-group mb-3">
+                   <select name="role" id="role" class="form-select">
+                       <option value="employer">Роботодатель</option>
+                       <option value="candidate">Соискатель</option>
+                   </select>
+                </div>
+                <div class=" row mt-5 justify-content-center">
+                    <button type="submit" class="btn btn-primary col-3">Зарегистрироваться</button>
+                    <a href="sing-in.html" class="modal-window__link link-primary col-3 align-self-center text-center">Войти</a>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    
+</body>
+
+</html>
